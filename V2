@@ -149,6 +149,12 @@ t.circle(125)
 t.end_fill()
 t.shape("turtle")
 
+
+
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+
                         #omul din stanga
 t.pu()
 t.goto(-350, 20)
