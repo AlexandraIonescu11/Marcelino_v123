@@ -1,5 +1,152 @@
 import turtle
-t = turtle.Turtle()
+t =  turtle.Turtle()
+s = turtle.getscreen
+
+
+t.speed(10)
+#t.bgcolor("cyan")
+
+#fundalul
+t.penup()
+t.goto(-900, 500)
+t.pendown()
+t.color('cyan')
+t.begin_fill()
+for i in range(2):
+    t.forward(2000)
+    t.right(90)
+    t.forward(1000)
+    t.right(90)
+t.end_fill()
+
+#iarba1
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.backward(400)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#iarba2
+t.penup()
+t.goto(400,-100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.forward(400)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#iarba
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.forward(800)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#munte stanga
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("dimgray")
+t.begin_fill()
+for i in range(3):
+    t.forward(300)
+    t.left(120)
+t.end_fill()
+
+#munte dreapta
+t.penup()
+t.goto(100, -100)
+t.pendown()
+t.begin_fill()
+for i in range(3):
+    t.forward(300)
+    t.left(120)
+t.end_fill()
+
+#munte mijloc
+t.penup()
+t.goto(-160, -100)
+t.pendown()
+t.color("gray")
+t.begin_fill()
+for i in range(3):
+    t.forward(400)
+    t.left(120)
+t.end_fill()
+
+#zapada
+t.penup()
+t.goto(-35, 120)
+t.pendown()
+t.color("white")
+t.begin_fill()
+t.left(35)
+t.forward(60)
+t.right(90)
+t.forward(30)
+t.left(100)
+t.forward(45)
+t.right(85)
+t.forward(65)
+t.left(160)
+t.forward(150)
+t.end_fill()
+
+#zapada
+t.penup()
+t.goto(-215, 100)
+t.pendown()
+t.color("snow")
+t.begin_fill()
+t.forward(70)
+t.left(120)
+t.forward(75)
+t.left(150)
+t.forward(45)
+t.right(90)
+t.forward(45)
+t.left(120)
+t.end_fill()
+
+#zapada
+t.penup()
+t.goto(203, 80)
+t.pendown()
+t.begin_fill()
+t.forward(95)
+t.right(120)
+t.forward(80)
+t.right(150)
+t.forward(50)
+t.left(70)
+t.end_fill()
+
+t.left(50)
+
+#soare
+t.penup()
+t.goto(-700, 250)
+t.pendown()
+t.color("yellow")
+t.begin_fill()
+t.circle(125)
+t.end_fill()
 t.shape("turtle")
 
 #omul din stanga
