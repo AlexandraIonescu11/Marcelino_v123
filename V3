@@ -1,1 +1,363 @@
+import turtle
+t =  turtle.Turtle()
+s = turtle.getscreen
 
+
+t.speed(10)
+
+
+                    #fundalul
+t.penup()
+t.goto(-900, 500)
+t.pendown()
+t.color('cyan')
+t.begin_fill()
+for i in range(2):
+    t.forward(2000)
+    t.right(90)
+    t.forward(1000)
+    t.right(90)
+t.end_fill()
+
+#iarba1
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.backward(400)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#iarba2
+t.penup()
+t.goto(400,-100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.forward(400)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#iarba
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.forward(800)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#munte stanga
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("dimgray")
+t.begin_fill()
+for i in range(3):
+    t.forward(300)
+    t.left(120)
+t.end_fill()
+
+#munte dreapta
+t.penup()
+t.goto(100, -100)
+t.pendown()
+t.begin_fill()
+for i in range(3):
+    t.forward(300)
+    t.left(120)
+t.end_fill()
+
+#munte mijloc
+t.penup()
+t.goto(-160, -100)
+t.pendown()
+t.color("gray")
+t.begin_fill()
+for i in range(3):
+    t.forward(400)
+    t.left(120)
+t.end_fill()
+
+#zapada
+t.penup()
+t.goto(-35, 120)
+t.pendown()
+t.color("white")
+t.begin_fill()
+t.left(35)
+t.forward(60)
+t.right(90)
+t.forward(30)
+t.left(100)
+t.forward(45)
+t.right(85)
+t.forward(65)
+t.left(160)
+t.forward(150)
+t.end_fill()
+
+#zapada
+t.penup()
+t.goto(-215, 100)
+t.pendown()
+t.color("snow")
+t.begin_fill()
+t.forward(70)
+t.left(120)
+t.forward(75)
+t.left(150)
+t.forward(45)
+t.right(90)
+t.forward(45)
+t.left(120)
+t.end_fill()
+
+#zapada
+t.penup()
+t.goto(203, 80)
+t.pendown()
+t.begin_fill()
+t.forward(95)
+t.right(120)
+t.forward(80)
+t.right(150)
+t.forward(50)
+t.left(70)
+t.end_fill()
+
+t.left(50)
+
+#soare
+t.penup()
+t.goto(-700, 250)
+t.pendown()
+t.color("yellow")
+t.begin_fill()
+t.circle(125)
+t.end_fill()
+
+
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+
+                            #omul din stanga
+t.pu()
+t.goto(-350, 20)
+t.pd()
+t.speed(0)
+t.fillcolor("tan")
+t.begin_fill()
+t.color("tan")
+t.pensize(5)
+t.circle(85)
+t.end_fill()
+t.fillcolor("tan")
+t.pu()
+t.goto(-370, 18)
+t.pd()
+t.begin_fill()
+for i in range(2):
+    t.fd(40)
+    t.rt(90)
+    t.fd(30)
+    t.rt(90)
+t.end_fill()
+t.pu()
+def ochi(c, x, y, d):
+    t.fillcolor(c)
+    t.begin_fill()
+    t.goto(x, y)
+    t.pd()
+    t.circle(d)
+    t.end_fill()
+    t.pu()
+t.pencolor("black")
+ochi("black", -385, 120, 8)
+ochi("black", -310, 120, 8)
+t.pu()
+t.goto(-350, 100)
+t.pd()
+t.pensize(5)
+t.pencolor("black")
+t.lt(90)
+t.fd(12)
+t.rt(90)
+t.pu()
+t.goto(-340, 50)
+t.pd()
+t.fillcolor("black")
+t.begin_fill()
+t.pencolor("black")
+t.circle(10)
+t.end_fill()
+
+t.pu()
+t.pencolor("tan")
+t.fillcolor("tan")
+t.begin_fill()
+t.goto(-430, -315)
+t.pendown()
+t.lt(90)
+t.fd(240)
+for i in range(180):
+    t.fd(1.4)
+    t.rt(1)
+t.fd(240)
+t.rt(90)
+t.goto(-430, -315)
+t.end_fill()
+
+                        #omul din dreapta
+t.pu()
+t.goto(350, 185)
+t.pd()
+t.speed(0)
+t.fillcolor("salmon")
+t.begin_fill()
+t.color("salmon")
+t.pensize(5)
+t.circle(85)
+t.end_fill()
+t.fillcolor("salmon")
+t.pu()
+t.goto(370, 0)
+t.pd()
+t.begin_fill()
+for i in range(2):
+    t.fd(40)
+    t.rt(90)
+    t.fd(30)
+    t.rt(90)
+t.end_fill()
+t.pu()
+t.pencolor("black")
+ochi("black", 385, 120, 8)
+ochi("black", 310, 120, 8)
+t.pu()
+t.goto(350, 100)
+t.pd()
+t.pensize(5)
+t.pencolor("black")
+t.lt(90)
+t.fd(12)
+t.rt(90)
+t.pu()
+t.goto(340, 65)
+t.pd()
+t.fillcolor("black")
+t.begin_fill()
+t.pencolor("black")
+t.circle(10)
+t.end_fill()
+
+t.pu()
+t.pencolor("salmon")
+t.fillcolor("salmon")
+t.begin_fill()
+t.goto(275, -315)
+t.pendown()
+t.rt(90)
+t.fd(240)
+for i in range(180):
+    t.fd(1.4)
+    t.rt(1)
+t.fd(240)
+t.rt(90)
+t.goto(275, -315)
+t.end_fill()
+
+t.pu()                       #bula st
+t.goto(-170, 20)
+t.rt(40)
+t.pencolor( 'black')
+t.pd()
+t.fillcolor('white')
+t.begin_fill()
+t.speed(0)
+
+def curba():
+    for i in range(30):
+        t.fd(1)
+        t.rt(4)
+for i in range(9):
+    curba()
+    t.lt(100)
+
+for i in range(8):
+    curba()
+    t.lt(100)
+t.fd(40)
+t.rt(120)
+t.fd(40)
+t.end_fill()
+
+
+t.pu()                  #bula dr
+t.goto(170, 20)
+t.rt(40)
+t.pencolor( 'black')
+t.pd()
+t.fillcolor('white')
+t.begin_fill()
+t.rt(40)
+def curba():
+    for i in range(30):
+        t.fd(1)
+        t.rt(4)
+for i in range(17):
+    curba()
+    t.lt(100)
+t.fd(40)
+t.rt(120)
+t.fd(40)
+t.lt(120)
+t.end_fill()
+
+
+                            #text
+
+
+turtle.penup()
+turtle.goto(-100, 290)
+turtle.pendown()
+turtle.write('Comunică', font=('Times New Roman', 50, 'normal'))
+
+turtle.penup()
+turtle.goto(-580, 240)
+turtle.pendown()
+turtle.write('Comunicarea ajută la consolidarea relațiilor interumane, cât și la înțelegerea celor din jur!', font=('Times New Roman', 25, 'normal'))
+
+turtle.penup()
+turtle.goto(-165, 20)
+turtle.pendown()
+turtle.write('Trebuie sa ne despartim!', font=('Times New Roman', 10, 'normal'))
+
+turtle.penup()
+turtle.goto(-165, 10)
+turtle.pendown()
+turtle.write('Nu ne mai intelegem', font=('Times New Roman', 10, 'normal'))
+
+turtle.penup()
+turtle.goto(42, 20)
+turtle.pendown()
+turtle.write('Dar de ce? ', font=('Times New Roman', 10, 'normal'))
+
+turtle.penup()
+turtle.goto(42, 10)
+turtle.pendown()
+turtle.write('Credeam că totul e bine!:(', font=('Times New Roman', 10, 'normal'))
+
+turtle.mainloop()
