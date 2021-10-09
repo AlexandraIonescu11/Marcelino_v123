@@ -2,6 +2,81 @@ import turtle
 t = turtle.Turtle()
 s = turtle.getscreen
 
+t.speed(10)
+#t.bgcolor("cyan")
+
+#fundalul
+t.penup()
+t.goto(-900, 500)
+t.pendown()
+t.color('cyan')
+t.begin_fill()
+for i in range(2):
+    t.forward(2000)
+    t.right(90)
+    t.forward(1000)
+    t.right(90)
+t.end_fill()
+
+#apa1
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.backward(400)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#apa2
+t.penup()
+t.goto(400,-100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.forward(400)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#iarba
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("limegreen")
+t.begin_fill()
+for i in range(2):
+    t.forward(800)
+    t.right(90)
+    t.forward(400)
+    t.right(90)
+t.end_fill()
+
+#munte stanga
+t.penup()
+t.goto(-400, -100)
+t.pendown()
+t.color("dimgray")
+t.begin_fill()
+for i in range(3):
+    t.forward(300)
+    t.left(120)
+t.end_fill()
+
+#munte dreapta
+t.penup()
+t.goto(100, -100)
+t.pendown()
+t.begin_fill()
+for i in range(3):
+    t.forward(300)
+    t.left(120)
+t.end_fill()
 #omul din dreapta
 
 t.pu()
