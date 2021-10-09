@@ -6,7 +6,7 @@ s = turtle.getscreen
 t.speed(10)
 #t.bgcolor("cyan")
 
-#fundalul
+                        #fundalul
 t.penup()
 t.goto(-900, 500)
 t.pendown()
@@ -149,7 +149,7 @@ t.circle(125)
 t.end_fill()
 t.shape("turtle")
 
-#omul din stanga
+                        #omul din stanga
 t.pu()
 t.goto(-350, 20)
 t.pd()
@@ -216,7 +216,7 @@ t.rt(90)
 t.goto(-430, -315)
 t.end_fill()
 
-#omul din dreapta
+                        #omul din dreapta
 t.pu()
 t.goto(350, 185)
 t.pd()
