@@ -338,7 +338,7 @@ turtle.write('Comunică', font=('Times New Roman', 50, 'normal'))
 turtle.penup()
 turtle.goto(-580, 240)
 turtle.pendown()
-turtle.write('Comunicarea ajută la consolidarea relațiilor interumane, cât și la înțelegerea celor din jur!', font=('Times New Roman', 25, 'normal'))
+turtle.write('Comunicarea atat la ajută la consolidarea relațiilor interumane, cât și la înțelegerea celor din jur!', font=('Times New Roman', 25, 'normal'))
 
 turtle.penup()
 turtle.goto(-165, 20)
